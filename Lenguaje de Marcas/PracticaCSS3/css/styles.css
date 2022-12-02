@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+}
+
+.container {
+
+    margin-left: -400px;
+    width: 120%;
+    height: 100vh;
+    padding: .01rem;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    display: inline-block;
+    margin-left: -181px;
+    margin-top: -189px;
+    margin-bottom: 833px;
+    width: 574px;
+}
+
+.connect-friends {
+    text-align: left;
+    margin: -2rem -25rem 5rem;
+    margin-top: -855px;
+    margin-left: -119px;
+    font-size: 52px;
+    line-height: 57px;
+}
+
+.form * {
+    display: block;
+}
+
+.form {
+    width: 745px;
+    height: 640px;
+    padding: 1rem;
+    margin: -9rem 39rem 1rem;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 1px 1px 10px rgb(117 116 116 / 22%);
+}
+
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="submit"] {
+    padding: 1rem;
+    width: 95%;
+    height: 96px;
+    margin: 17px 18px 29px;
+    outline-color: #1877f2;
+    border: solid thin #dddfe2;
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 33px;
+    text-align: left;
+}
+
+.form input::placeholder {
+    color: #a6a8a8;
+}
+
+.form input[type="submit"]{
+    background-color: hsl(214, 89%, 52%);
+    text-align: center;
+    padding: 0.9rem 0.5rem;
+    font-weight: 600;
+    font-size: 34px;
+    margin-top: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover{
+    background-color: hsl(214, 77%, 35%);
+}
+
+
+.form span {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.form span a {
+    margin-top: 31px;
+    margin-bottom: 31px;
+    color: #247df1;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.form span a:hover{
+    text-decoration: underline;
+}
+
+.border {
+    width: 90%;
+    height: 1px;
+    background-color: #dadde1;
+    margin: 20px auto;
+}
+
+.form button {
+    width: 49%;
+    height: 100px;
+    margin: auto;
+    margin-top: 35px;
+    background-color: #42b72a;
+    padding: 0.9rem 0.3rem;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background-color: #318820;
+} 
+
+.form button a {
+    text-decoration: none;
+    color:#fff;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.create-page {
+    margin-left: 623px;
+    text-align: center;
+    margin-top: 4.5rem;
+    font-size: 27px;
+}
+
+.create-page > a {
+    color: #222;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.create-page > a:hover{
+    text-decoration: underline;
+}
+
+.container-form{
+    width: 1382px;
+}
+
+.container-profile {
+    margin: 0;
+}
+

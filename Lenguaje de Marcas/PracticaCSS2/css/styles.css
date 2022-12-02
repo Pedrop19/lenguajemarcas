@@ -1,0 +1,16 @@
+body {
+    align-content: center;
+    background-color: #7bbb64;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+table{
+    border-spacing:30px;
+}
+
+#head {
+    font-family: 'Sulphur Point', sans-serif;
+    font-size: 40px;
+}

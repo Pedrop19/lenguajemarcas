@@ -1,0 +1,70 @@
+body {
+    background-image: url("https://i.ibb.co/42Tf5Sv/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.header {
+    background-image: url("https://i.ibb.co/qkQrZhT/fondo2.png");
+    background-repeat: no-repeat;
+    background-size: inherit;
+    color: #00ddff;
+    width: 75%;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    left: 17%;
+    top: 30%;
+    margin-top: -100px;
+    margin-left: -100px;
+}
+
+.fontdiff {
+    font-size: 60px;
+    font-family: 'Fasthand', cursive;
+    color: #F4D03F;
+}
+
+.parraf {
+    font-size: 30px;
+    font-family: 'Poor Story', cursive;
+    color: #F4D03F;
+}
+
+form label {
+    width: 90px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 25px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"]{
+    width: 180px;
+    padding: 3px 10px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 9px 0;
+    display: inline-block;
+}
+
+form input[type="radio"] {
+    width: 180px;
+    display: inline-flex;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    resize: none;
+    display: block;
+}

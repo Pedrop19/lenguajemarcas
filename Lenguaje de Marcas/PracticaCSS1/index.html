@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="./css/styles.css">
+        <title>Cines El Foro</title>
+
+    </head>
+    <body>
+
+        <div class="Header">
+
+            <img class="img1" src="./images/imgcine.png" alt="Logo">
+            <p class="multi">Multicines <br> 2RV</p>
+
+        </div>
+        <div class="Center">
+
+            <p class="head">Los minions regresan</p>
+
+            <img class="img2" src="./images/minions.png" alt="Logo" width="300px">
+            
+            <p class="p1">Nueva película disponible ¡Reserva ya tu entrada!</p>
+
+            <br>
+            
+            <form>
+
+                <input type="text" id="nom" name="ap" placeholder="Nombre" required>
+                <br><br>
+                <input type="text" id="ap" name="ap" placeholder="Apellidos" required>
+                <br><br>
+                <input type="number" id="numero" name="numero" placeholder="NºEntradas" min="0" required>
+                <br><br>
+                <p>Selecciona el método de pago</p>
+                <input type="radio" id="paypal" name="pago" value="PayPal">
+                <label for="paypal">PayPal</label>
+                <input type="radio" id="tar_cred" name="pago" value="TarCred">
+                <label for="tar_cred">Tarjeta Crédito</label>
+                <br><br>
+                <input type="submit" value="Comprar">
+
+            </form>
+            
+        </div>
+
+    </body>
+</html>

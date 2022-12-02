@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>CUENTANOS TU EXPERIENCIA</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fasthand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+</head>
+    <body>
+        <div class="header">
+             <h1 class="fontdiff">Encuesta satisfaccion</h1>
+             <p class="fontdiff">Para nosotros es muy importante su opinion</p>
+             <form>
+                 <label for="fname">Nombre</label>
+                 <input type="text" id="usuario" name="usuario" border="0" required><br><br>
+                 <label for="apellidos">Apellido</label>
+                 <input type="text" id="apellidos" name="apellidos" required><br><br>
+                 <label for="numero">Telefono</label>
+                 <input type="number" id="numero" name="numero" min="600000000" max="9999999999" required><br><br>
+                 <label for="email">Email</label>
+                 <input type="email" id="email" name="email" required><br><br>
+                 <p class="parraf">1. ¿Con qué frecuencia visitas nuestro restaurante?</p>
+                 <input type="radio" id="todos" name="freq" value="TODOS">
+                 <label for="todos">Todos los días</label>
+                 <input type="radio" id="semana" name="freq" value="SEMANA">
+                 <label for="semana">Cada semana</label>
+                 <input type="radio" id="cuando" name="freq" value="CUANDO">
+                 <label for="cuando">De vez en cuando</label>
+                 <input type="radio" id="primera" name="freq" value="PRIMERA">
+                 <label for="primera">Es la primera vez</label><br><br>
+                 <p class="parraf">¿Qué tipo de comida prefieres?</p>
+                 <input type="checkbox" id="Opc1" name="Opc1" value="1">
+                 <label for="Opc1"> Carne</label>
+                 <input type="checkbox" id="Opc2" name="Opc2" value="2">
+                 <label for="Opc2"> Pescado</label>
+                 <input type="checkbox" id="Opc3" name="Opc3" value="3">
+                 <label for="Opc3"> Verduras</label><br><br>
+                 <input type="submit" value="Terminar">
+             </form>
+        </div> 
+    </body>
+</html>

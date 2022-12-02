@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&family=Sulphur+Point&display=swap" rel="stylesheet">
+    <title>Desguaces 1ºDAM</title>
+
+</head>
+<body>
+
+    <div class="Header">
+
+        <table id="tb1" style="width:100%">
+            <tr>
+                <th><img id="img1" src="./images/grua.png" alt="grua" width="200"></th>
+                <th id="head">DESGUACES 1ºDAM</th>
+                <th><img id="img1" src="./images/des2.png" alt="des2" width="200"></th>
+            </tr>
+        </table>
+        <br />
+        <hr />
+
+    </div>
+
+    <div class="Center">
+
+        <table id="tb1" style="width:100%">
+
+            <tr>
+                <th></th>
+                <th>Productos disponibles</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td><img id="img1" src="./images/piloto.jpg" alt="piloto" width="200"></td>
+                <td><img id="img1" src="./images/cuadro.jpg" alt="cuadro" width="200"></td>
+                <td><img id="img1" src="./images/puerta.jpg" alt="puerta" width="200"></td>
+            </tr>
+            <tr>
+                <td>Piloto trasero A3</td>
+                <td>Cuadro Renault Clio</td>
+                <td>Puerta Xsara Picasso</td>
+            </tr>
+            <tr>
+                <td><b>36,41€</b></td>
+                <td><b>63,25€</b></td>
+                <td><b>50,09€</b></td>
+            </tr>
+            <tr>
+                 <td>
+                    <input type="checkbox" id="Añadir1" name="añadir1" value="añadir1">
+                    <label for="añadir1">Añadir</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="Añadir2" name="añadir2" value="añadir2">
+                    <label for="añadir2">Añadir</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="Añadir3" name="añadir3" value="añadir3">
+                    <label for="añadir3">Añadir</label>
+                </td>
+            </tr>
+
+        </table>
+        
+
+        <hr />
+
+    </div>
+
+    <div class="Footer">
+
+        <form>
+
+            <label for="nom">Nombre:</label><br />
+            <input type="text" id="nom" name="ap" required>
+            <br><br>
+            <label for="ap">Apellido:</label><br />
+            <input type="text" id="ap" name="ap" required>
+            <br><br>
+            <label for="dir">Dirección:</label><br />
+            <input type="text" id="dir" name="dir" required>
+            <br><br>
+            <label for="tlf">Telefono:</label><br />
+            <input type="number" id="tlf" name="telefono" min="600000000" max="999999999" required>
+            <br><br>
+
+            <p><b>¿Desea factura?</b></p>
+            <small><b>*Nota* Recuerde que si desea factura el precio es superior</b></small>
+            <br /><br />
+            <input type="radio" id="si" name="factura" value="Si">
+            <label for="si">Si</label>
+            <input type="radio" id="no" name="factura" value="No">
+            <label for="no">No</label>
+            <br><br />
+            <input type="submit" value="Comprar">
+
+        </form>
+
+
+    </div>
+</body>
+</html>

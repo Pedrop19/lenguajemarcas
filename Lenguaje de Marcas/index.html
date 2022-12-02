@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>HTML EXAM EXAMPLE</title>
+</head>
+<body>
+
+    <nav class="Indice">
+        <a href="#Inicio">Inicio</a>
+        <a href="#Sobre">Sobre</a>
+        <a href="#Social">Social</a>
+        <a href="#Servicios">Servicios</a>
+        <a href="#Contacto">Contacto</a>
+    </nav><br><br>
+	
+    <div id="Inicio">
+	
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/250px-HTML5_logo_and_wordmark.svg.png" alt="HTML5">
+        
+		<h1>SIMULACRO EXAMEN HTML</h1>
+		
+        <h3>Esto es un ejemplo de lo que podrá ser un examen HTML</h3>
+		
+        <p>Habrá párrafos como este mismo quee estás leyendo y que podrán ser breves o largos como el siguiente.</p>
+		
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat velit eget euismod bibendum. Cras in convallis lorem. Morbi dignissim luctus lorem.
+            Etiam et magna sed leo facilisis ultricies ac in nunc. Aenean mollis eget tellus non mattis. Nam est massa, euismod nec felis in, dapibus commodo nibh. Vivamus in condimentum velit, quis dictum tellus.
+            Nunc convallis, ipsum eu imperdiet venenatis, nisi dolor tristique sem, tincidunt condimentum purus arcu sed metus. Donec nec nibh luctus, lacinia tortor vel, aliquet ligula. Mauris sollicitudin non diam at rutrum.
+            Phasellus iaculis eros et arcu aliquet ultricies ut eget quam. Duis ultricies turpis a varius euismod. Aenean maximus elit a quam elementum, vitae eleifend dolor vestibulum.
+        </p>
+		
+    </div>
+	
+	<div id="Sobre">
+	
+		<h1>Sobre (Texto y video)</h1>
+		
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/mNbnV3aN3KA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		 
+		 <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+			Maecenas consequat velit eget euismod bibendum. Cras in convallis lorem.<br>
+			Morbi dignissim luctus lorem.<br>
+            Etiam et magna sed leo facilisis ultricies ac in nunc. Aenean mollis eget tellus non mattis.<br>
+			Nam est massa, euismod nec felis in, dapibus commodo nibh.<br>
+			Vivamus in condimentum velit, quis dictum tellus.<br>
+            Nunc convallis, ipsum eu imperdiet venenatis, nisi dolor tristique sem, tincidunt condimentum purus arcu sed metus.<br>
+			Donec nec nibh luctus, lacinia tortor vel, aliquet ligula.<br>
+			Mauris sollicitudin non diam at rutrum.<br>
+            Phasellus iaculis eros et arcu aliquet ultricies ut eget quam. Duis ultricies turpis a varius euismod.<br>
+			Aenean maximus elit a quam elementum, vitae eleifend dolor vestibulum.<br>
+        </p>
+		
+	</div>
+	
+	<div id="Social">
+	
+		<h1>Redes sociales (Lista desordenada "cada elemento es un link" con emoji)</h1><br>
+		
+		<ul>
+			<li><a href="https://www.facebook.com">&#127773; Facebook</a></li>
+			<li><a href="https://www.twitter.com">&#128035; Twitter</a></li>
+			<li><a href="https://www.instagram.com">&#128248; Instagram</a></li>
+		</ul>
+		
+	</div>
+	
+	<div id="Servicios">
+	
+		<h1>Servicios (Lista ordenada (orden inverso) comenzando en eel 12 y del 10 al 7)</h1>
+		
+		<ol start="12" reversed>
+		  <li>Servicio 1</li>
+		  <li>Servicio 2</li>
+		  <li>Servicio 3</li>
+		  <li value="7">Service 4</li>
+		  <li>Servicio 5</li>
+		  <li>Servicio 6</li>
+		</ol>
+		
+	</div>
+	
+	<div id="Contacto">
+
+		<h1>Contacto (Tabla, mapa y formulario)</h1>
+
+		<table border="1">
+			<tr>
+				<th>LUNES</th>
+				<th>MARTES</th>
+				<th>MIERCOLES</th>
+				<th>JUEVES</th>
+				<th>VIERNES</th>
+			</tr>
+			<tr>
+				<td>SI</td>
+				<td>FOL</td>
+				<td>FOL</td>
+				<td>FOL</td>
+				<td>SI</td>
+			</tr>
+			<tr>
+				<td>SI</td>
+				<td>PROG</td>
+				<td>SI</td>
+				<td>ED</td>
+				<td>SI</td>
+			</tr>
+			<tr>
+				<td>ED</td>
+				<td>BD</td>
+				<td>PROG</td>
+				<td>ED</td>
+				<td>BD</td>
+			</tr>
+			<tr>
+				<td colspan="5" align="center">RECREO</td>
+			</tr>
+			<tr>
+				<td>ED</td>
+				<td>BD</td>
+				<td>PROG</td>
+				<td>PROG</td>
+				<td>BD</td>
+			</tr>
+			<tr>
+				<td>PROG</td>
+				<td>LM</td>
+				<td>BD</td>
+				<td>PROG</td>
+				<td>LM</td>
+			</tr>
+			<tr>
+				<td>PROG</td>
+				<td>LM</td>
+				<td>BD</td>
+				<td>SI</td>
+				<td>LM</td>
+			</tr>
+		</table>
+
+		<br><br>
+
+		<form>
+
+			<input type="text" id="usuario" name="usuario" placeholder="Nombre" required>
+			<label for="usuario">Nombre</label><br>
+
+			<input type="email" id="email" name="email" placeholder="Email" required>
+			<label for="email">Email</label><br>
+
+			<input type="number" id="numero" name="numero" min="600000000" max="9999999999" placeholder="Telefono" required>
+			<label for="numero">Teléfono</label><br>
+
+			<input type="date" id="fecha" name="fecha">
+			<label for="fecha">Fecha del contacto</label>
+
+			<br>
+
+			<p>Para poder enviar el formulario debe aceptar el acuerdo de privacidad de datos según la LPD que puede encontrar <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673">aquí</a></p>
+
+			<br>
+
+			<input type="checkbox" id="aceptar" name="aceptar">
+			<label for="aceptar">Aceptar</label><br>
+
+			<input type="submit" value="Enviar">
+
+		</form>
+
+		<br>
+
+		<p>CopyRight <b>2022</b></p>
+
+		<br>
+
+		<a href="#Inicio">Volver al inicio</a>
+	</div>
+</body>
+</html>

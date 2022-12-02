@@ -1,0 +1,38 @@
+body {
+    align-content: center;
+    background-color: #2b2c43;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.multi {
+    font-family: 'Comic Sans MS';
+    font-size: 30px;
+}
+
+.Header {
+    display: inline-flex;
+    margin-left: 500px;
+}
+
+.img2 {
+    width: 40%;
+}
+
+.img1 {
+    width:30%;
+}
+
+.p1 {
+    font-size: 20px;
+}
+
+.head {
+    font-size: 40px;
+}
+
+.Center {
+    font-family: Arial;
+}
